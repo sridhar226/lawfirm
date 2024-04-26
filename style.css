@@ -1,0 +1,710 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+nav {
+    padding: 20px;
+    background-color: #58614e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    overflow: hidden;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.navLinks li {
+    list-style-type: none;
+}
+
+.navLinks a {
+    color: #aebe9e;
+    font-size: small;
+    font-weight: bold;
+
+
+}
+
+figure img {
+    margin-left: 10px;
+}
+
+/* herosection */
+
+.heroSection {
+    padding-top: 40px;
+    background-color: #e2e2e2;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+}
+
+.card {
+    display: flex;
+    height: 95%;
+    width: 70%;
+    background-color: #e9e9e9;
+    justify-content: space-between;
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 0px 10px;
+    margin-top: 18px;
+
+}
+
+.quote {
+    text-align: center;
+    color: #4e5944;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+
+}
+
+.maincontainer {
+
+    background-color: #e9e9e9;
+
+}
+
+.mains {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    /* padding-top: 20px; */
+    border-bottom: 2px solid white;
+
+}
+
+.main1 {
+    width: 40%;
+    border-right: 1px dashed;
+    border-color: #aebe9e;
+
+
+}
+
+.main2 {
+    width: 30%;
+    padding-left: 10px;
+
+}
+
+.main1 h2 {
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4e5944;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.main1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.main2 h3 {
+    padding-bottom: 20px;
+    color: #4e5944;
+    gap: 0 2px;
+}
+
+.main2 p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* GRID  */
+
+.cardContainer {
+    padding: 30px 0;
+    background-color: #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: 2px SOLID white;
+}
+
+.card2 p {
+    width: 70%;
+    padding: 10px;
+    color: rgb(73, 72, 70);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card2 h4 {
+    padding: 10px;
+
+    color: rgb(73, 72, 70);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card2 img {
+    padding: 2px;
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card2 button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: rgb(73, 72, 70);
+    color: whitesmoke;
+    border: 0;
+}
+
+/* ABOUT PAGE MAIN  */
+
+.aboutPageContainer {
+
+    background-color: #e9e9e9;
+    border-bottom: 2px solid white;
+
+}
+
+.aboutPageBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.aboutBody {
+
+    color: #58614e;
+    width: 68%;
+}
+
+.aboutHeader h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    font-weight: lighter;
+    color: #58614e;
+}
+
+.aboutBody h3 {
+    font-weight: lighter;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.thumbup img {
+    padding: 2px;
+    border: 1px solid white;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+/* Practice page main */
+.practiceContainer {
+    background-color: #e9e9e9;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white;
+
+}
+
+.practices1 {
+    width: 70%;
+    display: flex;
+    margin-top: 40px;
+
+
+}
+
+.practiceLeft {
+    border-right: 1px dotted;
+
+}
+
+.practiceLeft h3 {
+    padding-bottom: 20px;
+    font-weight: lighter;
+    color: #58614e;
+    padding-top: 10px;
+
+}
+
+.practiceLeft p {
+    color: #58614e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.practiceLeft h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f570a;
+    padding: 10px;
+    border-bottom: 1px dotted;
+
+}
+
+.practiceRight {
+    padding-left: 30px;
+    color: #58614e;
+}
+
+.practiceRight h2 {
+    font-weight: lighter;
+    padding-bottom: 10px;
+
+}
+
+.practiceRight p {
+    padding-bottom: 10px;
+}
+
+.practiceRight figure img {
+    padding: 3px;
+    border: 2px solid white;
+    box-shadow: 0px 15px 10px -15px #111;
+
+}
+
+.cardimg {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.cardimg figure {
+    padding-bottom: 50px;
+}
+
+.practiceRight figure img:hover {
+    transform: scale(1.1);
+}
+
+
+/* lawyers page main  */
+
+.lawyerContainer {
+    background-color: #e9e9e9;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid white;
+}
+
+.lawyer1 {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.card5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card6 {
+    display: flex;
+}
+
+.card7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lawyerLeft p {
+    border-top: 1px dotted black;
+    padding-top: 10px;
+}
+
+.lawyer1 {
+    color: #4e5944;
+}
+
+.lawyerRight img {
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    border: 2px solid white;
+}
+
+.card5Body h5 {
+    margin-bottom: 20px;
+}
+
+.card5Body {
+    padding-left: 5px;
+
+}
+
+.card5Body p {
+    margin-bottom: 5px;
+}
+
+.lawyer1 h3 {
+    padding: 20px;
+
+}
+
+.lawyerLeft {
+    border-right: 1px dotted black;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.lawyerRight h1 {
+    font-weight: lighter;
+}
+
+.lawyer1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.card7Body h5 {
+    padding-bottom: 20px;
+}
+
+.card6Body h5 {
+    padding-bottom: 20px;
+}
+
+/* menu button  */
+
+.checkbtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* responsive for mobile 576  */
+
+@media(max-width:576px) {
+
+    .navLinks {
+        background-color: transparent;
+        position: absolute;
+        display: none;
+        width: 100%;
+        top: 50px;
+        flex-direction: column;
+
+
+    }
+
+    .navLinks li {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 27.5%;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 80%;
+        margin-left: -15px;
+        padding: 10px;
+    }
+
+    .navLinks a {
+        font-size: 20px;
+        color: #000000;
+        text-decoration: none;
+    }
+
+
+
+    .card {
+        border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .practiceContainer {
+        padding: 0px;
+    }
+
+    .thumbup img {
+        width: 95%;
+        padding: 0px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    #check:checked~.navLinks {
+        display: block;
+    }
+
+    .mains {
+        display: flex;
+        flex-direction: column;
+        /* height: 50vh; */
+        justify-content: flex-start;
+
+
+    }
+
+    .main1 {
+        border-right: 0px;
+        width: 80%;
+        margin-top: 0px;
+    }
+
+    .main2 {
+        width: 80%;
+        padding-bottom: 10px;
+    }
+
+    .practices1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .practiceLeft {
+        border-right: 0px;
+    }
+
+    .practiceRight {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .lawyer1 {
+        display: flex;
+        padding-top: 0px;
+        flex-direction: column;
+    }
+
+    .lawyerLeft {
+        border-right: 0px;
+        width: 100%;
+        /* height: 100%; */
+        margin: 0;
+padding-bottom: 30px;
+    }
+
+    .lawyerRight {
+        padding-bottom: 30px;
+    }
+
+    .lawyerRight img {
+        padding: 0px;
+        border: 2px solid white;
+    }
+
+    .card5Body {
+        width: 80%;
+    }
+
+    .card6Body {
+        width: 80%;
+    }
+
+    .card7Body {
+        width: 80%;
+    }
+
+    .cardimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+
+    }
+
+    .cardimg img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .thumbup img {
+        width: 100%;
+    }
+}
+
+
+/* responsive fot tab  */
+
+@media(max-width:768px) {
+    .navLinks {
+        display: none;
+        font-size: x-large;
+    }
+
+    .checkbtn {
+        display: block;
+        border: 2px solid white;
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    #check:checked~.navLinks {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .thumbup img {
+        width: 96%;
+    }
+
+
+    .lawyer1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .lawyerLeft {
+        width: 100%;
+        /* height: 35vh; */
+        border-right: none;
+
+    }
+
+    .card5Body {
+        width: 80%;
+    }
+
+    .card6Body {
+        width: 80%;
+    }
+
+    .card7Body {
+        width: 80%;
+    }
+
+    .mains {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+
+/* responsible for ;aptop */
+
+
+
+/* footer  */
+
+.aboutContainer {
+    background-color: #e2e2e2;
+    padding: 20px 100px;
+}
+
+.aboutBar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.news {
+    width: 300px;
+}
+
+.message {
+    width: 300px;
+}
+
+.address {
+    width: 300px;
+}
+
+@media (max-width:576px) {
+    .aboutBar {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .aboutContainer {
+        padding: 20px;
+    }
+
+    .address {
+        padding: 20px 0px;
+    }
+
+
+    /* card container  */
+
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media(max-width:768px) {
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card2 {
+        padding: 30px 0;
+    }
+
+    .aboutBar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutContainer {
+        padding: 20px;
+    }
+
+    .address {
+        padding: 20px 0px;
+    }
+
+    figure img {
+        height: 30px;
+    }
+}
